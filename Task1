@@ -7,9 +7,7 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score, classification_report, confusion_matrix
 
-# Load the Titanic dataset
 df = pd.read_csv('titanic_survival.csv')
-# Display the first few rows of the dataset
 df.head()
 df.isnull().sum()
 
